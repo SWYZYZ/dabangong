@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分页一</title>
+    <link rel="stylesheet" href="css/fenye1.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font/iconfont2.css">
+    <link rel="stylesheet" href="font/iconfont3.css">
+    <link rel="stylesheet" href="font/iconfont4.css">
+    <link rel="stylesheet" href="font/iconfont5.css">
+    <link rel="stylesheet" href="font/iconfont6.css">
+    <link rel="stylesheet" href="font/iconfont7.css">
+    <link rel="stylesheet" href="font/iconfont8.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-listnav.js"></script>
+</head>
+<body>
+    <div class="ftop gWidth clearfix">
+        <p class="left fl"><span>全国连锁办公集成服务商</span><a href="###">[登录]</a><a href="###">[注册]</a></p>
+        <ul class="right fr">
+            <li><span class="iconfont icon-gouwuche3"></span><a href="###">我的订单</a></li>
+            <li><span class="iconfont icon-huiyuanzhongxin"></span><a href="###">会员中心</a></li>
+            <li><span class="iconfont icon-ziyuan"></span><a href="###">微信商城</a></li>
+            <li><span class="iconfont icon-kefuzhongxin"></span><a href="###">客服中心</a></li>
+        </ul>
+    </div>
+    
+    <div class="head gWidth clearfix">
+        <div class="logo fl"><a href="###"><img src="img/logo.png" alt=""></a></div>
+
+        <div class="wz fl">
+            <div class="wzt fl">
+                <p><span class="iconfont icon-ziyuan"></span></p>
+                <p><a href="###" id="wz1">北京站</a></p>
+            </div>
+            <div class="wzh fl">
+                <ul class="fl" id="wz2">
+                    <li><a href="###">济南站</a></li>
+                    <li><a href="###">石家庄站</a></li>
+                    <li><a href="###">长春站</a></li>
+                    <li><a href="###">哈尔滨站</a></li>
+                    <li><a href="###">沈阳站</a></li>
+                    <li><a href="###">呼和浩特</a></li>
+                    <li><a href="###">乌鲁木齐</a></li>
+                    <li><a href="###">兰州站</a></li>
+                    <li><a href="###">银川站</a></li>
+                    <li><a href="###">太原站</a></li>
+                    <li><a href="###">西安站</a></li>
+                    <li><a href="###">郑州站</a></li>
+                    <li><a href="###">合肥站</a></li>
+                    <li><a href="###">南京站</a></li>
+                    <li><a href="###">北京站</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var wz1 = document.getElementById("wz1");
+            var wz2 = document.getElementById("wz2");
+            var wz3 = wz2.getElementsByTagName("a");
+            for(i=0;i<wz3.length;i++){
+                wz3[i].onclick = function (){
+                    wz1.innerHTML = this.innerHTML
+
+                }
+            }
+        </script>
+        <div class="Search fl">
+            <form action="">
+                <input type="text" class="se">
+                <input type="submit" value="搜" class="se2">
+            </form>
+        </div>
+
+        <div class="phone fr">
+            <div class="img fl"><a href="###"><img src="img/电话.png" alt=""></a></div>
+            <p class="fl"><a href="###">400-0099-580</a></p>
+        </div>
+    </div>
+
+    <div class="nav clearfix gWidth">
+        <h3 class="title fl"><span class="iconfont icon-caidan"></span>商品分类</h3>
+        <ul class="fl">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="fenye1.html">连锁门店</a></li>
+            <li><a href="fenye2.html">闪购专区</a></li>
+            <li><a href="###">合约专区</a></li>
+            <li><a href="###">积分专区</a></li>
+            <li><a href="###">关于我们</a></li>
+        </ul>
+    </div>
+
+    <div class="hot gWidth clearfix">
+        <div class="left fl">
+            <p><a href="###">热卖推荐</a></p>
+        </div>
+        <div class="right fl">
+            <ul>
+                <li>
+                    <div class="ri_left fl">
+                        <div class="img">
+                            <img src="img/banner1 (1).jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="ri_right fl">
+                            <a href="###">
+                                <div class="p12">
+                                    <p class="p1"><a href="###">齐心CX -J016高1850*宽1200*深500mm组合办公</a></p>
+                                    <p class="p2"><a href="###">￥860.00</a></p>
+                                </div>
+                            </a>
+                        <p class="p3"><a href="###">立即抢购</a></p>
+                    </div>
+                    <div class="tp">TOP1</div>
+                </li>
+                <li>
+                    <div class="ri_left fl">
+                        <div class="img">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="ri_right fl">
+                            <a href="###">
+                                <div class="p12">
+                                    <p class="p1"><a href="###">齐心CX -J016高1850*宽1200*深500mm组合办公</a></p>
+                                    <p class="p2"><a href="###">￥860.00</a></p>
+                                </div>
+                            </a>
+                        <p class="p3"><a href="###">立即抢购</a></p>
+                    </div>
+                    <div class="tp">TOP2</div>
+                </li>
+                <li>
+                    <div class="ri_left fl">
+                        <div class="img">
+                            <img src="img/热卖推荐.png" alt="">
+                        </div>
+                    </div>
+                    <div class="ri_right fl">
+                            <a href="###">
+                                <div class="p12">
+                                    <p class="p1"><a href="###">齐心CX -J016高1850*宽1200*深500mm组合办公</a></p>
+                                    <p class="p2"><a href="###">￥860.00</a></p>
+                                </div>
+                            </a>
+                        <p class="p3"><a href="###">立即抢购</a></p>
+                    </div>
+                    <div class="tp">TOP3</div>
+                </li>
+                <li>
+                    <div class="ri_left fl">
+                        <div class="img">
+                            <img src="img/电话.png" alt="">
+                        </div>
+                    </div>
+                    <div class="ri_right fl">
+                            <a href="###">
+                                <div class="p12">
+                                    <p class="p1"><a href="###">齐心CX -J016高1850*宽1200*深500mm组合办公</a></p>
+                                    <p class="p2"><a href="###">￥860.00</a></p>
+                                </div>
+                            </a>
+                        <p class="p3"><a href="###">立即抢购</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop gWidth">
+        <div class="top clearfix">
+            <div class="to_left fl">
+                <h5>全部商品</h5>
+                <ul>
+                    <li><span>&gt;</span><a href="###">办公家具</a></li>
+                </ul>
+            </div>
+            <div class="to_right fr">
+                <p>共<span>10737</span>件相关商品</p>
+            </div>
+        </div>
+        <div class="index">
+            <div class="pinpai" id="pp1">
+                <p class="fl">品牌</p>
+                <ul class="fl" id="pp">
+                    <li><a href="###">齐心</a></li>
+                    <li><a href="###">茶花</a></li>
+                </ul>
+                <div class="more fr">
+                    <a href="###" class="a1"><span>+</span>多选</a>
+                    <a href="###" class="a2" id="pp1a">更多<span class="iconfont icon-shang"></span></a>
+                </div>
+            </div>
+            <div class="pinpai2 clearfix" id="pp2">
+                <p class="fl" id="pp2p">品牌</p>
+                <div class="pp2_right fl">
+                    <div class="pp2_top clearfix">
+                        <ul class="fl ul1" id="pp-nav">
+                            <li><a href="###">全部品牌</a></li>
+                            <li><a href="###">A</a></li>
+                            <li><a href="###">B</a></li>
+                            <li><a href="###">C</a></li>
+                            <li><a href="###">D</a></li>
+                            <li><a href="###">E</a></li>
+                        </ul>
+                        <div class="more fr">
+                            <a href="###" class="a1"><span>+</span>多选</a>
+                            <a href="###" class="a2" id="pp2a">更多<span class="iconfont icon-xia"></span></a>
+                        </div>
+                    </div>
+                    <div class="pp_line"></div>
+                    <div class="pp2_bottom">
+                        <ul class="ul2">
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                            <li><a href="###">啊</a></li>
+                            <li><a href="###">波</a></li>
+                            <li><a href="###">次</a></li>
+                            <li><a href="###">得</a></li>
+                            <li><a href="###">额</a></li>
+                            <li><a href="###">佛</a></li>
+                            <li><a href="###">哥</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pinpai3" id="pp1">
+                <p class="fl p1">价格</p>
+                <ul class="fl" id="pp">
+                    <li><a href="###">0-19</a></li>
+                    <li><a href="###">20-39</a></li>
+                </ul>
+                <div class="more fl"></div>
+                    <p class="p2"><input type="text" name="" id=""><span>-</span><input type="text" name="" id=""></p>
+                    <a href="###" class="a1">确定</a>
+                </div>
+        </div>
+        
+        <div class="bottom">
+            <div class="btm_top clearfix">
+                <div class="left fl">
+                    <ul class="ul1 fl" id="shop_ul">
+                        <li class="active"><a href="###"><strong>默认</strong></a></li>
+                        <li><a href="###"><strong>销量</strong><span class="iconfont icon-jiantouarrow499"></span></a></li>
+                        <li><a href="###"><strong>价格</strong><span class="iconfont icon-jiantouarrow505"></span></a></li>
+                    </ul>
+                    <ul class="ul2 fl">
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>常备</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>标品</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>专业</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>区域</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>惠选</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right fr">
+                    <p><span id="dqy">1</span><span>/</span><span id="zy">358</span><a href="###" id="shop3">&lt;</a><a href="###" id="shop4">&gt;</a></p>
+                </div>
+            </div>
+            <div class="btm_btm">
+                <div class="shopwin" id="shopwin">
+                    <ul class="clearfix" id="shops">
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/banner1 (2).jpg" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/banner1 (1).jpg" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btm_btm_top clearfix">
+                                <a href="###" class="iconfont icon-aixin""></a>
+                                <span>办公必备</span>
+                                <input type="checkbox">
+                            </div>
+                            <div class="btm_btm_center">
+                                <div class="bimg">
+                                    <div class="img"><img src="img/电话.png" alt=""></div>
+                                </div>
+                                <p class="p1">三强SY-8272W雕花衣帽架红棕色(单位:个)</p>
+                                <p class="p2">￥412.12</p>
+                            </div>
+                            <div class="btm_btm_bottom">
+                                <p>
+                                    <strong class="st1"><a href="###" class="jian">-</a><input type="text" class="jieguo" value="1"><a href="###" class="jia">+</a></strong><a href="###" class="st2"><span class="sp1 iconfont icon-gouwuche"></span><span class="sp2">加入购物车</span></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fenye" id="fenye">
+
+                        <a href="###" class="not" id="shop1">上一页</a><a href="###" class="yeshu">1</a><a href="###" class="yeshu">2</a><a href="###" class="yeshu">3</a><span class="sp1">...</span><a href="###" class="yeshu">358</a><a href="###" id="shop2">下一页</a><span class="sp2">共<strong id="zy2">358</strong>页,到第<input type="text" name="" id="ys" value="1" class="ys">页<input type="submit" value="确定" class="qd" id="qd"></span>
+
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script>
+        var shops = document.getElementById("shops");
+        var shopwin = document.getElementById("shopwin");
+        var shopss = shops.getElementsByTagName("li");
+        var shop1 = document.getElementById("shop1");
+        var shop2 = document.getElementById("shop2");
+        var fenye = document.getElementById("fenye");
+        var qd = document.getElementById("qd");
+        var ys = document.getElementById("ys");
+        var yeshu = fenye.getElementsByClassName("yeshu");
+        var ss = Math.ceil(shopss.length/30)
+
+        var shop3 = document.getElementById("shop3");
+        var shop4 = document.getElementById("shop4");
+        var dqy = document.getElementById("dqy");
+        var zy = document.getElementById("zy");
+        var zy2 = document.getElementById("zy2");
+        zy.innerHTML=ss;
+        zy2.innerHTML=ss;
+        yeshu[yeshu.length-1].innerHTML=ss;
+        shop1.onclick = function(){
+            if(shops.offsetTop<0){
+                shops.style.top = shops.offsetTop + 1860 +"px";
+                dqy.innerHTML = Number(dqy.innerHTML)-1;
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+                if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    if(dqy.innerHTML==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    yeshu[Number(dqy.innerHTML)-1].className = "yeshu active";
+            }
+        }
+        shop2.onclick = function(){
+            if(shops.offsetTop>-ss*1860+1860){
+                shops.style.top = shops.offsetTop - 1860 +"px";
+                dqy.innerHTML = Number(dqy.innerHTML)+1;
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+                if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    if(dqy.innerHTML==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    yeshu[Number(dqy.innerHTML)-1].className = "yeshu active";
+            }
+        }
+        yeshu[0].className="yeshu active";
+        for(i=0;i<yeshu.length;i++){
+            yeshu[i].index=i;
+            yeshu[i].onclick=function(){
+                
+                if(-Number(this.innerHTML)*1860+1860>=-ss*1860+1860){
+                    dqy.innerHTML = this.innerHTML;
+                    shops.style.top = -Number(this.innerHTML)*1860+1860 +"px";
+                    if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    if(this.innerHTML==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    this.className="yeshu active"
+                }
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+            }
+        }
+        qd.onclick = function(){
+            if(-Number(ys.value)*1860+1860>=-ss*1860+1860){
+                dqy.innerHTML = ys.value
+                    shops.style.top = -Number(ys.value)*1860+1860 +"px";
+                    if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    yeshu[ys.value-1].className="yeshu active"
+                    if(ys.value==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                }else{
+                    alert("没有那么多的商品")
+                }
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+        }
+        shop3.onclick = function(){
+            if(shops.offsetTop<0){
+                shops.style.top = shops.offsetTop + 1860 +"px";
+                dqy.innerHTML = Number(dqy.innerHTML)-1;
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+                if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    if(dqy.innerHTML==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    yeshu[Number(dqy.innerHTML)-1].className = "yeshu active";
+            }
+        }
+        shop4.onclick = function(){
+            if(shops.offsetTop>-ss*1860+1860){
+                shops.style.top = shops.offsetTop - 1860 +"px";
+                dqy.innerHTML = Number(dqy.innerHTML)+1;
+                if(shops.offsetTop==0){
+                    shop1.className = "not";
+                }else{
+                    shop1.className = "";
+                }
+                if(shops.offsetTop==-ss*1860+1860){
+                    shop2.className = "not";
+                }
+                else{
+                    shop2.className = "";
+                }
+                if(shops.offsetTop/-1860!=0){
+                        shopwin.style.height = Math.ceil((shopss.length-(shops.offsetTop/-1860)*30)/5)*310+"px";
+                    }
+                    if(dqy.innerHTML==1){
+                        shopwin.style.height = 1860+"px";
+                    }
+                    for(i=0;i<yeshu.length;i++){
+                        yeshu[i].className="yeshu";
+                    }
+                    yeshu[Number(dqy.innerHTML)-1].className = "yeshu active";
+            }
+        }
+    </script>
+    <script>
+        var jian = document.getElementsByClassName("jian");
+        var jia = document.getElementsByClassName("jia");
+        var jieguo = document.getElementsByClassName("jieguo");
+
+        for(i=0;i<jian.length;i++){
+            jian[i].index = i;
+            jia[i].index = i;
+            jian[i].onclick = function(){
+                jieguo[this.index].value = Number(jieguo[this.index].value)-1;
+            }
+            jia[i].onclick = function(){
+                jieguo[this.index].value = Number(jieguo[this.index].value)+1;
+            }
+        }
+    </script>
+    <script>
+    var aixin = document.getElementsByClassName("iconfont icon-aixin");
+    for(i=0;i<aixin.length;i++){
+        aixin[i].onclick=function(){
+            if(this.className=="iconfont icon-aixin active"){
+                this.className="iconfont icon-aixin"
+            }else{
+                this.className="iconfont icon-aixin active"
+            }
+        }
+    }
+    </script>
+    <div class="footer gWidth">
+        <div class="foo_top">
+            <ul class="clearfix">
+                <li>
+                    <div class="fl top">
+                        <p>正</p>
+                    </div>
+                    <div class="fl bottom">
+                        <p class="p1">正品保证</p>
+                        <p class="p2">惠选优品 购物无忧</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="fl top">
+                        <p>全</p>
+                    </div>
+                    <div class="fl bottom">
+                        <p class="p1">全国配送</p>
+                        <p class="p2">专业服务 精准送达</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="fl top">
+                        <p>增</p>
+                    </div>
+                    <div class="fl bottom">
+                        <p class="p1">增票保证</p>
+                        <p class="p2">全场商品 保证增据开票</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="fl top">
+                        <p>专</p>
+                    </div>
+                    <div class="fl bottom">
+                        <p class="p1">专属价格</p>
+                        <p class="p2">企业采购 专享低价</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="foot_line"></div>
+        <div class="foo_center clearfix">
+            <div class="left fl">
+                <ul class="bigul clearfix">
+                    <li>
+                        <h6>购物指南</h6>
+                        <ul class="littleul">
+                            <li><a href="###">商城使用手册</a></li>
+                            <li><a href="###">授权证书</a></li>
+                            <li><a href="###">购物流程</a></li>
+                            <li><a href="###">常见问题</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>配送方式</h6>
+                        <ul class="littleul">
+                            <li><a href="###">全国网络</a></li>
+                            <li><a href="###">签收事项</a></li>
+                            <li><a href="###">配送服务</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>支付方式</h6>
+                        <ul class="littleul">
+                            <li><a href="###">在线支付</a></li>
+                            <li><a href="###">货到付款</a></li>
+                            <li><a href="###">公司转账</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>售后服务</h6>
+                        <ul class="littleul">
+                            <li><a href="###">取消订单</a></li>
+                            <li><a href="###">退换货流程</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>关于我们</h6>
+                        <ul class="littleul">
+                            <li><a href="###">齐心集团</a></li>
+                            <li><a href="###">销售网络</a></li>
+                            <li><a href="###">加入齐心</a></li>
+                            <li><a href="###">开票资料</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="right fl">
+                <h6>微信商城</h6>
+                <div class="code clearfix">
+                    <div class="twocode fl"><img src="img/banner1 (1).jpg" alt=""></div>
+                    <div class="fl">
+                        <p>扫一扫！即刻关注齐心微信商城</p>
+                        <p>Comix品牌产品售后服务</p>
+                        <p>(400-700-8688)</p>
+                        <p>工作日(9:00-18:00)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot_line"></div>
+        <div class="foo_bottom">
+            <p class="p1">关于齐心<span>|</span>友情链接<span>|</span>English Site</p>
+            <p class="p2">粤ICP备05143967号<span>|</span>增值电信业务经营许可证:粤B1.B2-20150312<span>|</span>公安备案号: 44031002000228<span>|</span>食品经营许可证编号: JY14403040260602</p>
+            <p class="p3">Copyright © 2020深圳齐心集团股份有限公司(002301.SZ)版权所有<span>|</span>营业执照</p>
+            <ul id="fooul">
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+                <li><img src="img/banner1 (1).jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var fooul = document.getElementById("fooul");
+        var fooli = fooul.getElementsByTagName("li");
+        fooul.style.width = fooli.length*120 - 12 +"px";
+    </script>
+    <script>
+        var shop_ul = document.getElementById("shop_ul");
+        var shop_li = shop_ul.getElementsByTagName("li");
+        for(i=0;i<shop_li.length;i++){
+            shop_li[i].onclick = function(){
+                if(this.className == "active"){
+                    var spanls = this.getElementsByTagName("span");
+                    if(spanls[0].className == "iconfont icon-jiantouarrow499"){
+                        spanls[0].className = "iconfont icon-jiantouarrow505"
+                    }else{
+                        spanls[0].className = "iconfont icon-jiantouarrow499"
+                    }
+                }
+                for(i=0;i<shop_li.length;i++){
+                    shop_li[i].className = "";
+                }
+                this.className = "active"
+                
+            }
+        }
+    </script>
+    <script>
+        var pp1 = document.getElementById("pp1");
+        var pp2 = document.getElementById("pp2");
+        var pp1a = document.getElementById("pp1a");
+        var pp2a = document.getElementById("pp2a");
+        var pp2p = document.getElementById("pp2p");
+        
+
+
+        pp1a.onclick = function(){
+            pp1.style.display = "none";
+            pp2.style.display = "block";
+            pp2p.style.height = pp2.offsetHeight + "px";
+        }
+        pp2a.onclick = function(){
+            pp2.style.display = "none";
+            pp1.style.display = "block";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1966856",
+      "name": "客服中心",
+      "font_class": "kefuzhongxin",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "3509294",
+      "name": "购物车",
+      "font_class": "gouwuche3",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "3829035",
+      "name": "H5微信商城",
+      "font_class": "ziyuan",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "5310968",
+      "name": "会员中心",
+      "font_class": "huiyuanzhongxin",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    }
+  ]
+}
